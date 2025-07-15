@@ -1,10 +1,11 @@
-hello.c- 👋 Hi, I’m @Pavankumar-3
+### Hi there 👋, I'm Pavankumar-3
+
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-<!---
+<!--
 Pavankumar-3/Pavankumar-3 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->
+-->
