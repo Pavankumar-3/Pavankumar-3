@@ -1,11 +1,11 @@
-# Package Sorting
+# Recruiting Without Limits — Shell Site
 
-This repository hosts a simple package sorting function designed for Thoughtful's robotic automation factory. The function classifies packages as `STANDARD`, `SPECIAL`, or `REJECTED` based on their dimensions and mass.
+Minimal static site to demonstrate structure, navigation, and future AI/community ideas.
 
-Repository link: <https://github.com/Pavankumar-3/Pavankumar-3>
+## Run locally
+Open `index.html` in any modern browser. No build step or dependencies required.
 
-## Running tests
-
-```bash
-python3 -m unittest discover -s tests -v
-```
+## Files
+- `index.html` — semantic markup and sections
+- `styles.css` — lightweight, responsive design
+- `script.js` — nav toggle + small UX touches

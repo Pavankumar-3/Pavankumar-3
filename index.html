@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recruiting Without Limits</title>
+  <meta name="description" content="A minimalist shell site demonstrating approach, structure, and future AI/community integration ideas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Recruiting Without Limits Home">RWL</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <nav id="nav" class="site-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#model">Model</a>
+      <a href="#future">Future</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" role="banner">
+      <div class="hero-inner">
+        <h1>Recruiting Without Limits.</h1>
+        <p class="subhead">Speed and Scale.</p>
+        <p class="lede">
+          We’re building a new model for recruitment. One that combines revenue sharing, a marketing engine,
+          a competitive broker community, and an AI-driven learning platform. This is recruitment rewritten for the modern era.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="#about">Explore</a>
+          <a class="btn ghost" href="#future">See what’s next</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Principles</h2>
+        <ul class="grid three">
+          <li class="card">
+            <h3>Clarity</h3>
+            <p>Minimal surfaces, decisive typography, and zero ornamentation so signal stands out from noise.</p>
+          </li>
+          <li class="card">
+            <h3>Velocity</h3>
+            <p>Opinionated defaults and lightweight components keep pages fast on any device.</p>
+          </li>
+          <li class="card">
+            <h3>Trust</h3>
+            <p>Accessible, responsive, and privacy‑respecting by design.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="model" class="section alt">
+      <div class="container">
+        <h2>The Model</h2>
+        <div class="grid two">
+          <div class="card">
+            <h3>Revenue Sharing</h3>
+            <p>A transparent split that rewards contribution across sourcing, screening, and placement.</p>
+          </div>
+          <div class="card">
+            <h3>Marketing Engine</h3>
+            <p>Programmatic campaigns and landing pages that compound brand reach and candidate flow.</p>
+          </div>
+          <div class="card">
+            <h3>Broker Community</h3>
+            <p>A curated network of independents aligned on standards, ethics, and SLAs.</p>
+          </div>
+          <div class="card">
+            <h3>AI Learning Platform</h3>
+            <p>Continuous skills graphs, interview copilot, and feedback loops to improve matches over time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="future" class="section">
+      <div class="container">
+        <h2>Future: Community & AI</h2>
+        <div class="grid two">
+          <div class="wire card">
+            <h3>Community Hub (Mock)</h3>
+            <ul class="list">
+              <li>🏷️ Topic channels (Data, Design, GTM)</li>
+              <li>🤝 Bounties for hard‑to‑fill roles</li>
+              <li>📈 Reputation points per successful handoff</li>
+            </ul>
+            <button class="btn ghost small" disabled aria-disabled="true">Prototype (coming)</button>
+          </div>
+          <div class="wire card">
+            <h3>AI Matching (Mock)</h3>
+            <ul class="list">
+              <li>🔍 Talent Graph: skills × seniority × recency</li>
+              <li>🧠 Interview copilot: structured prompts</li>
+              <li>♻️ Outcome feedback → better ranking</li>
+            </ul>
+            <button class="btn ghost small" disabled aria-disabled="true">Prototype (coming)</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container tight">
+        <h2>Contact</h2>
+        <form class="contact" onsubmit="event.preventDefault(); window.alert('Thanks — this is a shell site.');">
+          <label>
+            <span>Name</span>
+            <input type="text" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" placeholder="you@example.com" required>
+          </label>
+          <label class="full">
+            <span>Message</span>
+            <textarea rows="4" placeholder="Say hello…"></textarea>
+          </label>
+          <button class="btn primary">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Recruiting Without Limits</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
