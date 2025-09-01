@@ -7,7 +7,7 @@ Repository: https://github.com/Pavankumar-3/Pavankumar-3
 """
 
 
-def sort(width, height, length, mass):
+def sort(width: float, height: float, length: float, mass: float) -> str:
     """Return the stack name for a package.
 
     Parameters:
@@ -15,6 +15,9 @@ def sort(width, height, length, mass):
         height (float): height in cm
         length (float): length in cm
         mass (float): mass in kg
+
+    Returns:
+        str: ``STANDARD``, ``SPECIAL``, or ``REJECTED`` classification.
     """
     volume = width * height * length
     bulky = volume >= 1_000_000 or max(width, height, length) >= 150
